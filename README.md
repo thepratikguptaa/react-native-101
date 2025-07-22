@@ -1,5 +1,8 @@
-# Welcome to your Expo app 👋
+<h1 align="center" id="title">Learning React Native</h1>
 
+<p align="center"><img src="https://socialify.git.ci/thepratikguptaa/react-native-101/image?custom_description=Learning+React+Native+and+building+a+movies+app&amp;custom_language=React&amp;description=1&amp;font=Jost&amp;language=1&amp;logo=https%3A%2F%2Fcdn.worldvectorlogo.com%2Flogos%2Fexpo-go-app.svg&amp;name=1&amp;owner=1&amp;pattern=Circuit+Board&amp;theme=Light" alt="project-image"></p>
+
+# Welcome to my Movie app built with Expo! 👋
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
