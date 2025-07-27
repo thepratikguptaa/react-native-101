@@ -92,6 +92,16 @@ const Search = () => {
                             )}
                     </>
                 }
+
+                ListEmptyComponent={
+                    !moviesLoading && !moviesError ? (
+                        <View className="mt-10 px-5">
+                            <Text className="text-gray-500 text-center">
+                                {searchQuery.trim() ? "Ummm... No Movies Found" : "Search For A Movie"}
+                            </Text>
+                        </View>
+                    ) : null
+                }
             />
         </View>
     );
