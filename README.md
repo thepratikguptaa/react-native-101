@@ -1,53 +1,58 @@
-<h1 align="center" id="title">React Native 101</h1>
+# MoviesStack
 
-<p align="center"><img src="https://socialify.git.ci/thepratikguptaa/react-native-101/image?custom_description=Learning+React+Native+and+building+a+Movies+App&amp;custom_language=React&amp;description=1&amp;font=Jost&amp;language=1&amp;logo=https%3A%2F%2Fcdn.worldvectorlogo.com%2Flogos%2Fexpo-go-app.svg&amp;name=1&amp;owner=1&amp;pattern=Circuit+Board&amp;theme=Light" alt="project-image"></p>
+This is a mobile application built with React Native and Expo that allows users to browse and search for movies. It features a clean, modern interface and leverages several cutting-edge technologies to provide a seamless user experience.
 
-# Welcome to my Movies App built with Expo! 👋
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Features
 
-## Get started
+*   **Browse Latest Movies:** The home screen displays a list of the latest movies, allowing users to stay up-to-date with new releases.
+*   **Discover Trending Movies:** A dedicated section showcases movies that are currently trending, helping users discover popular content.
+*   **Search Functionality:** Users can search for specific movies by title. The search is performed in real-time, with results appearing as the user types.
+*   **Movie Details:** Tapping on a movie card will navigate the user to a details screen (Note: The implementation of the details screen is not fully visible in the provided code, but the navigation is set up for it).
 
-1. Install dependencies
+## How It's Made
 
-   ```bash
-   npm install
-   ```
+This project was developed using the following technologies:
 
-2. Start the app
+*   **React Native & Expo:** The core framework for building the cross-platform (iOS and Android) mobile application.
+*   **TypeScript:** For static typing, improving code quality and developer experience.
+*   **Expo Router:** For file-based routing and navigation within the app.
+*   **NativeWind & Tailwind CSS:** For styling the user interface, allowing for rapid development with utility-first CSS classes.
+*   **Appwrite:** Used for backend services, specifically for tracking and displaying trending movie searches.
+*   **External Movie API:** The app fetches movie data (latest movies, search results) from an external API.
 
-   ```bash
-   npx expo start
-   ```
+## Getting Started
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+First, install the dependencies:
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Then, you can run the project in a variety of ways:
 
-## Learn more
+### `npm start`
 
-To learn more about developing your project with Expo, look at the following resources:
+Runs the app in development mode.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### `npm run android`
 
-## Join the community
+Runs the app on a connected Android device or emulator.
 
-Join our community of developers creating universal apps.
+### `npm run ios`
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Runs the app on the iOS simulator.
+
+### `npm run web`
+
+Runs the app in a web browser.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+*   `npm start`: Runs the app in development mode.
+*   `npm run reset-project`: Resets the project.
+*   `npm run android`: Runs the app on a connected Android device or emulator.
+*   `npm run ios`: Runs the app on the iOS simulator.
+*   `npm run web`: Runs the app in a web browser.
+*   `npm run lint`: Lints the project files.
